@@ -68,6 +68,7 @@ public class ExceptionTest {
 				
 			}
 			
+//		} catch(NullPointerException | ArrayIndexOutOfBoundsException e) { // 버티컬바를 통해서 여러개의 익셉션을 한줄에 처리 가능
 		} catch(NullPointerException e) {
 			System.out.println(e.getMessage());
 		} catch(ArrayIndexOutOfBoundsException e) {
